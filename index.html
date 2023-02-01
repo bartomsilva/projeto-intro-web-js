@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Escola de Progração</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./assets/favicon/site.webmanifest">
+    <script defer src="./js/myfuncs.js"></script>
+    <script defer src="./js/script.js"></script>
+    <script defer src="./js/btnMenu.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link rel="stylesheet" href="./css/comuns.css">
+    <link rel="stylesheet" href="./css/menu.css">
+    <link rel="stylesheet" href="./css/btnMenu.css">
+    <link rel="stylesheet" href="./css/home.css" type="text/css">
+</head>
+
+<body>
+    <header id="container-header">
+        <div id="header-link-img" class="header-container">
+            <a id="logo-link" href="index.html">
+                <img id="logo" src="./assets/header/logo.png" alt="logo">
+            </a>
+        </div>
+
+        <nav id="wrap-menu" class="wrap-menu header-container">
+            <a id="btnMenu_Open" class="btnMenu btnMenu_Open" href="#menu">Menu</a>
+            <ul id="menu" class="menu">
+                <li id="btnMenu_Close" class="btnMenu btnMenu_Close">Sair</li>
+
+                <li class="menu-item">
+                    <a class="menu-item-action menu-item-active" href="index.html" target="_self">Home</a>
+                </li>
+                <li class="menu-item">
+                    <a class="menu-item-action" href="cursos.html" target="_self">Cursos</a>
+                </li>
+                <li class="menu-item">
+                    <a class="menu-item-action" href="contato.html" target="_self">Contato</a>
+                </li>
+                <li class="menu-item">
+                    <a class="menu-item-action" href="admturmas.html" target="_self">Área ADM</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- ================================== -->
+    <main>
+        <div class="curse">
+            <div>
+                <h1 id="curse-tit">Descubra o novo ensino!</h1>
+                <p id="curse-subtit">Aprenda de verdade no seu tempo, no seu rítmo</p>
+            </div>
+            <a id="curse-btn" href="cursos.html">Conheça nossos cursos</a>
+        </div>
+
+        <section class="about">
+
+            <div class="about-container">
+                <h2 class="about-text-tit">Sobre Nós</h2>
+
+                <div id="about-text">
+                    <p class="about-text-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Justo faucibus
+                        vitae
+                        pretium amet lorem id.
+                        Id mauris cursus sed a interdum integer tincidunt. Arcu aliquam vestibulum eget ut velit aliquam
+                        nulla rutrum at. Nullam nec at et metus tempor, ornare id elit tincidunt. Id mauris cursus sed a
+                        interdum integer tincidunt. Arcu aliquam vestibulum
+                    </p>
+                </div>
+            </div>
+
+            <div class="about-container">
+                <h2 class="about-text-tit">Depoimentos</h2>
+                <div class="cards">
+                    <div class="cards-item">
+                        <img class="cards-item-img" src="/assets/home/photo1.png" alt="photo">
+                        <p class="cards-item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Justo uam
+                            vestibulum.
+                            Nullam nec at
+                            et metus tempor, ornare id elit tincidunt consectetur adipiscing elit.</p>
+                    </div>
+                    <div class="cards-item">
+                        <img class="cards-item-img" src="/assets/home/photo2.png" alt="photo">
+                        <p class="cards-item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Justo uam
+                            vestibulum.
+                            Nullam nec at
+                            et metus tempor, ornare id elit tincidunt consectetur adipiscing elit.</p>
+                    </div>
+                    <div class="cards-item">
+                        <img class="cards-item-img" src="/assets/home/photo3.png" alt="photo">
+                        <p class="cards-item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Justo uam
+                            vestibulum.
+                            Nullam nec at
+                            et metus tempor, ornare id elit tincidunt consectetur adipiscing elit.</p>
+                    </div>
+                    <div class="cards-item">
+                        <img class="cards-item-img" class="" src="/assets/home/photo4.png" alt="photo">
+                        <p class="cards-item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Justo uam
+                            vestibulum.
+                            Nullam nec at
+                            et metus tempor, ornare id elit tincidunt consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ======================= -->
+    <figure>
+        <a id="whatsapp" href="https://web.whatsapp.com" target="_blank">
+            <img src="./assets/whatsapp.png" alt="whatsapp">
+        </a>
+    </figure>
+
+    <footer id="container-footer">
+        <figure>
+            <img id="footer-logo" src="./assets/footer/Frame 2.png" alt="footer logo">
+        </figure>
+
+        <div id="footer-local">
+            <div id="footer-map" class="footer-local-containers">
+                <p class="footer-tit" id="footer-local-map-tit">Endereço</p>
+                <iframe id="footer-map-iframe"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.996414200124!2d-46.70069088535578!3d-23.568572267742976!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce57a7c7ace4c3%3A0x586759cab9b5c95a!2sR.%20Pais%20Leme%2C%20215%20-%20Pinheiros%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2005424-150!5e0!3m2!1spt-BR!2sbr!4v1670983695754!5m2!1spt-BR!2sbr"
+                    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+                <p id="footer-map-adress">R. Pais Leme, 215. CEP 05424-150 - Pinheiros</p>
+            </div>
+            <div id="footer-links" class="footer-local-containers">
+                <p class="footer-tit">Links</p>
+                <div id="footer-links-menu">
+                    <li><a class="footer-links-action" href="index.html">Home</a></li>
+                    <li><a class="footer-links-action" href="cursos.html">Cursos</a></li>
+                    <li><a class="footer-links-action" href="javascript:void(0);" onClick="modal('Aviso!','Página em desenvolvimento.')">Blog</a></li>
+                    <li><a class="footer-links-action" href="contato.html">Fale conosco</a></li>
+                    <li><a class="footer-links-action" href="javascript:void(0);" onClick="modal('Aviso!','Página em desenvolvimento.')">Termos e condições</a></li>
+                    <li><a class="footer-links-action" href="javascript:void(0);" onClick="modal('Aviso!','Página em desenvolvimento.')">Politica de privacidade</a></li>
+                    <li><a class="footer-links-action" href="javascript:void(0);" onClick="modal('Aviso!','Página em desenvolvimento.')">FAQ</a></li>
+                </div>
+            </div>
+            <div id="footer-social-networks" class="footer-local-containers">
+                <p class="footer-tit">Redes sociais</p>
+                <div id="footer-social-networks-menu">
+                    <a class="footer-social-networks-action" href="https://twitter.com/" target="_blank"><img
+                            src="./assets/footer/icon-twitter.svg" alt="image twitter"></a>
+                    <a class="footer-social-networks-action" href="https://br.linkedin.com/" target="_blank"><img
+                            src="./assets/footer/icon-linkedin.svg" alt="imagem linkdin"></a>
+                    <a class="footer-social-networks-action" href="https://pt-br.facebook.com/" target="_blank"><img
+                            src="./assets/footer/icon-fb.svg" alt="image facebook"></a>
+                    <a class="footer-social-networks-action"
+                        href="https://www.bing.com/search?FORM=U523DF&PC=U523&q=instagram" target="_blank"><img
+                            src="./assets/footer/icon-ig.svg" alt="image instagran"></a>
+                </div>
+            </div>
+            <div id="footer-restrict-area" class="footer-local-containers">
+                <p class="footer-tit">Área restrita</p>
+                <div #id="footer-restrict-area-menu">
+                    <li><a class="footer-restrict-area-action" href="admturmas.html">Área administrativa</a></li>
+                    <li><a class="footer-restrict-area-action" href="" id="resetLocalStorage">Espaço do aluno</a></li>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
