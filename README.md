@@ -7,38 +7,33 @@ Este projeto será dividido em duas partes: JavaScript, e HTML+CSS. Por enquanto
 
 ## Requisitos
 
-- [ ]  Possui array de estudantes
-- [ ]  Possui array de cursos
-- [ ]  Possui array de turmas
-- [ ]  Todos os arrays são arrays de objeto
-- [ ]  Possui função de parcelamento de curso
-- [ ]  Função de parcelamento de curso valida desconto para múltiplos cursos
-- [ ]  Possui função de reajuste de valores dos cursos
-- [ ]  Possui busca de cursos
-- [ ]  Possui busca de turmas
-- [ ]  Possui busca de estudantes
+- [x]  Possui array de estudantes
+- [x]  Possui array de cursos
+- [x]  Possui array de turmas
+- [x]  Todos os arrays são arrays de objeto
+- [x]  Possui função de parcelamento de curso
+- [x]  Função de parcelamento de curso valida desconto para múltiplos cursos
+- [x]  Possui função de reajuste de valores dos cursos
+- [x]  Possui busca de cursos
+- [x]  Possui busca de turmas
+- [x]  Possui busca de estudantes
 
 ### Extra:
 
-- [ ]  Possui função de matrícula
-- [ ]  Função de matrícula aceita múltiplos cursos
+- [x]  Possui função de matrícula
+- [x]  Salva os Alunos matriculados localmente (utilizei o localStorare)
+- [x]  Matrícula ( filtra as turmas em aberto de acordo com o curso selecionado)  
 
+### Tecnicas em empregadas:
 
-### Instruções de entrega
+- [x]  Para fins de estudo: o home e footer são inseridos na página através de acesso ao DOM
+- [x]  A inserção do header, footer e cards utiliza templates inseridos do innerHTML
+- [x]  Destruturação de objetos
+- [x]  Criei função que gera lista para utiliar em seleção nos inputs ( cursos, turmas e alunos )
 
-- Faça o fork desse repositório e realize o clone da sua cópia `seu-nome-de-usuario/projeto-intro-web`.
-   <details>
-   <summary>Quer uma dica?</summary>
-   <img src="https://firebasestorage.googleapis.com/v0/b/assets-conteudo.appspot.com/o/gerais%2Ffork.png?alt=media&token=7030e997-246a-41fe-a75f-2a2ced61e54d" alt="Como adicionar o projeto no repositório"/>
-   </details>
-- Crie os arquivos do projeto dentro deste repo;
-- Execute o fluxo de entrega do git. **Lembre-se de abrir os PRs para seu próprio repositório.**
-- Para isso, você precisará fazer o projeto utilizando **branches**. Evite fazer as alterações direto na branch ```main```
-    <details>
-       <summary>Dúvidas sobre o Git & Github?</summary>
-       <p>Adiciomos um vídeo explicando o <strong>processo de entrega</strong> [do fork ao pull request] no Material Assincrono da Aula de <a href="https://estudante.labenu.com.br/conteudos/tecnico/mod1/Git%20e%20Github">Git e Github</a>. Esse vídeo também exemplifica situações que podem acontecer durante o fluxo de utilização do Git.</p>
-    </details>
-- Entregue o **link do repo** no [Formulário de entrega](https://forms.gle/Q1mXTJFxwVUgUnrZA).
+## Entrega
+A entrega será feita na próxima parte do projeto, a de **HTML e CSS**. Nos vemos lá!
+Recomendamos que caso não lembre como funciona o processo de entrega, clique [**aqui**](https://github.com/labenuexercicios/instrucoes-entrega), e faça seu fork. A entrega do projeto completo será feita por um formulário que mandaremos para vocês ao terminarmos de ver todo o conteúdo de introdução ao desenvolvimento ao web.
 
-**Opcional**: Tente utilizar o **Github pages** para fazer o deploy do seu projeto.
+Bom projeto para vocês!
 

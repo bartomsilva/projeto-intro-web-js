@@ -1,0 +1,99 @@
+main {
+    width: 100vw;
+    height: var(--height-first);
+    background-color: #0E0E0E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#form {
+    width: 20.625rem;
+    height: 25rem;
+    background-color: #F0F0F0;
+    padding: 2.5rem;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: 'Poppins';
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 700;
+}
+
+#form-tit {
+    font-size: 1.375rem;
+    margin-bottom: 1.25rem;
+}
+
+.f-input,
+.f-textarea {
+    border-radius: 5px;
+    margin-bottom: 0.625rem;
+    border: 1.6px solid #000;
+    padding-inline: 0.625rem;
+
+}
+
+.f-input {
+    height: 1.875rem;
+}
+.f-input:hover, .f-textarea:hover{
+    background-color: rgb(252, 244, 235);
+}
+
+#send {
+    background-color: #F6C34A;
+    border: none;
+    border-radius: 5px;
+    height: 2.5rem;
+    font-weight: 800;
+    margin: 0;
+}
+
+#send:hover{
+    cursor: pointer;
+
+}
+
+@media (min-device-width: 480px) and (max-device-width: 768px) and (orientation: landscape), (max-width:768px) {
+   
+    #form {
+        /* width: 320px; */
+        width: 90%;
+        height: fit-content;
+        background-color: #F0F0F0;
+        padding: 20px;
+    }
+}
+
+
+@media (min-width: 1367px) and (max-width:1440px) {
+
+    
+    #form {
+        width: 35.625rem;
+        height: 42rem;
+        padding: 2.5rem;
+        font-size: 2.875rem;
+    }
+    
+    #form-tit {
+        font-size: 1.975rem;
+    }
+    
+    label{
+        font-size: 1.2rem;
+    }
+    
+    .f-input {
+        height: 2.875rem;
+    }
+
+    #send {
+        height: 4.5rem;
+        font-size: 1.4rem;
+    }
+
+}

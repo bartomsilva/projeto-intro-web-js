@@ -1,0 +1,621 @@
+main {
+    width: 100%;
+    height: var(--height-first);
+    display: flex;
+    border-bottom: 1px solid #0e0e0e;
+}
+
+#menu-container {
+    width: 20%;
+    height: 100%;
+    background-color: #0E0E0E;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#menu-adm {
+    width: 11.5625rem;
+    height: 10.75rem;
+    margin: 2.5rem 1.25rem 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.menu-adm-item,
+#box-search-button {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.0313rem;
+    line-height: 1.875rem;
+    color: #ffffff;
+}
+
+.adm-class,
+.adm-regist,
+.adm-finan {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 1.875rem;
+    width: 80%;
+    height: 100%;
+}
+
+.adm-class {
+    gap: 0px;
+}
+
+#box-search-class {
+    display: flex;
+    width: 21.875rem;
+    height: 2.1875rem;
+}
+
+#box-search-class input {
+    width: 75%;
+    height: 100%;
+    border: none;
+    border-radius: 0.25rem;
+    padding-inline: 10px;
+}
+
+#box-search-class input:hover {
+    background-color: rgb(252, 244, 235);
+}
+
+#box-search-class button {
+    width: 25%;
+    height: 100%;
+    background-color: #0e0e0e;
+    color: #fff;
+    border-radius: 5px;
+}
+
+
+/* turmas */
+#classes {
+    width: 78%;
+    height: 23.75rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.25rem;
+    justify-content: center;
+    align-items: center;
+}
+
+#classes>div {
+    background-color: #FFFFFF;
+    border-radius: 9px;
+    width: 22%;
+    height: 46%;
+}
+
+.class-tit {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 2.375rem;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 0.1875rem;
+}
+
+.class-text {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    color: #000000;
+}
+
+.class-text-bold {
+    font-weight: 700;
+    margin-left: 0.75rem;
+}
+
+
+/* regist student*/
+
+
+.adm-regist {
+    flex-direction: row;
+    justify-content: space-evenly;
+    justify-content: center;
+    text-align: left;
+    align-items: flex-start;
+    gap: 3.125rem;
+}
+
+#adm-regist>div {
+    width: 50%;
+    margin-top: 1.875rem;
+}
+
+.adm-finan {
+    text-align: center;
+}
+
+#r-form {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-left: 9.375rem;
+}
+
+#r-result {
+    margin-left: 7.5rem;
+}
+
+
+#r-form
+
+/* .adm-regist #f-button { */
+    {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-style: normal;
+    font-size: 0.9rem;
+}
+
+.r-tit {
+    font-size: 1.5rem;
+    margin-bottom: 1.25rem;
+    display: inline-block;
+}
+
+.adm-regist input {
+    border-radius: 0.3125rem;
+    margin-bottom: 0.4375rem;
+    height: 2.0625rem;
+    border: none;
+}
+
+.adm-regist #f-button {
+    margin-top: 1.25rem;
+    background-color: #000;
+    border: none;
+    border-radius: 5px;
+    width: 18.75rem;
+    height: 2.5rem;
+    font-family: 'Poppins';
+    font-size: 1rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+.adm-regist p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+#imgOk {
+    width: 1.5rem;
+    min-width: 20px
+}
+
+/*  */
+
+#adm-finan {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.adm-input {
+    width: 18.75rem;
+    height: 1.875rem;
+    border: none;
+    border-radius: 5px;
+    padding-inline: 10px;
+
+}
+
+.adm-input:hover {
+    background-color: rgb(252, 244, 235);
+}
+
+.adm-rel-finan,
+.adm-rel-student {
+    margin: 2.5rem 0 0 3rem;
+    width: 35%;
+    text-align: left;
+}
+
+.adm-rel-student {
+    margin-left: 2.5rem;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.finan-tit {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.4063rem;
+    margin-bottom: 1.25rem;
+}
+
+.label {
+    display: block;
+    margin-left: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+/* input seleção de parcelas */
+#finan-parc,
+#f-installment {
+    text-align: center;
+}
+
+#c-finan-btnAdd {
+    margin: 0.3125rem 0 0.625rem 0;
+}
+
+#finan-btnAdd {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 550;
+    color: rgba(0, 0, 0, .5);
+    background: none;
+    border: none;
+    border-bottom: 1px solid black;
+    margin-left: 5px;
+}
+
+#finan-btnAdd:hover {
+    cursor: pointer;
+}
+
+#c-finan-btnVer,
+#c-student-btnFind {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    margin: 2rem 0 2rem 0;
+}
+
+.adm-button:hover {
+    cursor: pointer;
+}
+
+.adm-button {
+    width: 18.75rem;
+    height: 2.5rem;
+    background-color: #0e0e0e;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+#relatorio {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 2rem;
+}
+
+#finan-btnReset:hover {
+    cursor: pointer;
+
+}
+
+/* 768 */
+@media (max-width: 1080px) {
+
+    :root {
+        --height-first: auto;
+    }
+
+    main {
+        flex-direction: column;
+    }
+
+    .menu-adm-item,
+    #box-search-button {
+
+        margin: 0 10px;
+        border-radius: 8px;
+    }
+
+    #menu-container {
+        position: fixed;
+        z-index: 100;
+        bottom: 0;
+        width: 100vw;
+        height: 10vh;
+    }
+
+    #menu-adm {
+        width: 100%;
+        flex-direction: row;
+        padding: 0 10px;
+        font-size: 1.8rem;
+    }
+
+    #menu-adm-item {
+        border: 1px solid white;
+        padding: 15px 16px;
+    }
+
+    .adm-class {
+        margin-top: 60px;
+        justify-content: flex-start;
+        width: 100vw;
+    }
+
+    #classes {
+        margin-top: 30px;
+        width: 100%;
+        height: auto;
+        padding-bottom: 20px;
+        justify-content: center;
+    }
+
+
+    #classes>div {
+        max-width: 200px;
+        min-width: 200px;
+        height: fit-content;
+        padding: 14px 0 20px 5px;
+    }
+
+    .class-tit {
+        font-size: 1.2rem;
+    }
+
+    .class-text {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-size: 1.3rem;
+        line-height: 1.525rem;
+    }
+
+
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+}
+
+@media (max-width:1024px) {
+
+    #adm-finan {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+        margin-right: 0;
+        justify-content: flex-start;
+    }
+
+    #adm-finan>div {
+        width: 50%;
+    }
+
+    #menu-adm {
+        margin-top: 2.5rem;
+    }
+
+    #menu-adm {
+        margin-left: 20px;
+        margin-top: 2.5rem;
+        width: 100%;
+    }
+
+    .adm-rel-student {
+        margin-top: 90px;
+    }
+}
+
+
+/* @media (min-width:768px) and (max-width: 1280px) { */
+@media (min-width:768px) and (max-width: 2400px) {
+
+    #classes {
+        margin-top: 25px;
+        width: 100%;
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+    #classes>div {
+        max-width: 200px;
+        min-width: 200px;
+        height: fit-content;
+        padding: 14px 0 20px 5px;
+    }
+
+
+    .adm-class {
+        margin-top: 40px;
+        justify-content: flex-start;
+    }
+
+
+
+}
+
+
+@media (min-width: 1368px) and (max-width:1440px) {
+
+
+    .menu-adm-item,
+    #box-search-button {
+        font-size: 1.2rem;
+    }
+
+
+    #menu-adm {
+        margin: 5rem 1.25rem 0px 0px;
+    }
+
+    #r-form {
+        width: 80%;
+        margin-left: 5.375rem;
+        font-size: 1.4rem;
+    }
+
+    .r-tit {
+        margin-top: 3.75rem;
+        font-size: 1.7rem;
+    }
+
+    .adm-regist p {
+
+        font-size: 1.3rem;
+    }
+
+    .adm-regist input {
+        height: 2.625rem;
+        width: 21.875rem;
+        font-size: 1.2rem;
+    }
+
+    .adm-regist #f-button {
+        height: 3.75rem;
+        font-size: 1.3rem;
+        width: 21.875rem;
+    }
+}
+
+@media (min-width:1441px) {
+
+    #form {
+        width: 40.625rem;
+        height: 45rem;
+        font-size: 1.4rem;
+    }
+
+    #form-tit {
+        font-size: 2.375rem;
+    }
+
+    .f-input {
+        height: 3.875rem;
+    }
+
+    #send {
+        height: 4.9rem;
+        font-size: 1.25em;
+    }
+
+    #box-search-class {
+        display: flex;
+        width: 39.875rem;
+        height: 3.1875rem;
+        margin-top: 30px;
+    }
+
+     #classes {
+        margin-top: 70px;
+    }
+
+    #classes>div {
+        height: fit-content;
+        padding-left: 10px;
+        max-width: 380px;
+    }
+
+    .class-tit {
+        font-size: 1.8rem;
+    }
+
+    .class-text-bold {
+        font-size: 1.4rem;
+    }
+
+    .class-text {
+        font-size: 1.575rem;
+        line-height: 1.65rem;
+    }
+
+    .menu-adm-item {
+        font-size: 1.34rem;
+    }
+
+    .menu-adm {
+        width: 16.5625rem;
+        margin: 2.5rem 0.25rem 0 0;
+    }
+
+
+    .r-tit {
+        font-size: 1.6rem;
+    }
+
+    #form {
+        width: 39.625rem;
+        height: 45rem;
+        font-size: 1.475rem;
+    }
+
+    #r-form {
+        font-size: 1.3rem;
+    }
+
+    .adm-regist input {
+        height: 3.0625rem;
+        width: -webkit-fill-available;
+    }
+
+    .adm-regist #f-button {
+        width: -webkit-fill-available;
+        height: 4.5rem;
+    }
+
+    .adm-regist p {
+        font-size: 1.5rem;
+    }
+
+    .finan-tit {
+        font-size: 1.6rem;
+    }
+
+    .adm-input {
+        height: 3.0625rem;
+
+    }
+
+    .label {
+        font-size: 1.3rem;
+    }
+
+    .adm-button {
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+    }
+
+    #relatorio,
+    c-finan-resu-desc1 {
+        font-size: 1.4rem;
+    }
+
+
+
+}
+
+/* @media (max-width: 2400px){
+    :root{
+        --height-first: auto;
+    }
+} */
