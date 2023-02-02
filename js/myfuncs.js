@@ -8,7 +8,6 @@ const moedaBrasil = (valor, simbolo) => {
     return valor.toLocaleString('pt-br', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
 }
 
-
 // BLOQUEIO DE TECLAS POR TIPOS - TODAS, LETRAS, NÚMEROS
 const rejectAll = (e) => {
     e.preventDefault()
