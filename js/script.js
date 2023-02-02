@@ -380,7 +380,6 @@ function addCard(xTurma, xCurso, xInicio, xTermino, xNumAlunos, xPeriodo, xConcl
     if(list.includes('stud')) {
         readBDlocalStorage(estudantes)
     }
-
     // percorre o array para montar a lista
     array.forEach(e => {
         // adicionando os elementos a lista
