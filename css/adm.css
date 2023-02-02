@@ -87,10 +87,10 @@ main {
 }
 
 #classes>div {
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     border-radius: 9px;
-    width: 22%;
-    height: 46%;
+    width: 20%;
+    height: 40%;
 }
 
 .class-tit {
@@ -428,8 +428,8 @@ main {
 }
 
 
-/* @media (min-width:768px) and (max-width: 1280px) { */
-@media (min-width:768px) and (max-width: 2400px) {
+/* @media (min-width:768px) and (max-width: 2400px) { */
+@media (min-width:768px) and (max-width: 2440px) {
 
     #classes {
         margin-top: 25px;
@@ -528,25 +528,27 @@ main {
 
      #classes {
         margin-top: 70px;
+
     }
 
     #classes>div {
-        height: fit-content;
-        padding-left: 10px;
-        max-width: 380px;
+        /* background-color: #ffffff; */
+        /* width: 250px;
+        height: 250px; */
     }
-
+    
+ 
     .class-tit {
-        font-size: 1.8rem;
+        /* font-size: 1.8rem; */
     }
 
     .class-text-bold {
-        font-size: 1.4rem;
+        /* font-size: 1.4rem; */
     }
 
     .class-text {
-        font-size: 1.575rem;
-        line-height: 1.65rem;
+        /* font-size: 1.575rem; */
+        /* line-height: 1.65rem; */
     }
 
     .menu-adm-item {
