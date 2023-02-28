@@ -115,6 +115,7 @@ const recordDBlocalStorage = (p1, p2, p3, p4, p5, p6, p7, p8) => {
 }
 
 // LÊ ALUNOS MATRICULADOS QUE ESTÃO NO LOCALSTORAGE
+
 const readBDlocalStorage = (array) => {
     if (typeof (Storage) === 'undefined' ||
         !localStorage.proInicio ||
@@ -127,6 +128,7 @@ const readBDlocalStorage = (array) => {
 }
 
 // remove do localStorage os dados dos Alunos
+
 const resetLocalStorage = (event) => {
     event.preventDefault()
     if (typeof (Storage) === 'undefined' ||
